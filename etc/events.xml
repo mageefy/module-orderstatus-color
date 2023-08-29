@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+ /**
+ * @category   Mageefy
+ * @package    Mageefy_OrderStatusColor
+ * @author     Mageefy Extension Team
+ * @copyright  Copyright (c) Mageefy ( https://www.mageefy.com )
+ * @license    https://www.mageefy.com/license-agreement
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="adminhtml_block_html_before">
+        <observer name="mageefy_adminhtml_block_html_before_sales_assign" instance="Mageefy\OrderStatusColor\Observer\EditStatusFormBeforeHtml" />
+    </event>
+</config>

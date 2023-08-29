@@ -1,0 +1,26 @@
+{
+        "name": "mageefy/module-orderstatus-color",
+        "description": "Magento 2 Admin Order Status Color Module",
+        "type": "magento2-module",
+         "version": "1.0.0",
+        "license": [
+            "OSL-3.0",
+            "AFL-3.0"
+        ],
+       "authors": [
+  {
+      "name": "Mageefy",
+      "email": "support@mageefy.com",
+      "homepage": "https://www.mageefy.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+       "Mageefy\\OrderStatusColor\\": ""
+    }
+  }
+
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ /**
+ * @category   Mageefy
+ * @package    Mageefy_OrderStatusColor
+ * @author     Mageefy Extension Team
+ * @copyright  Copyright (c) Mageefy ( https://www.mageefy.com )
+ * @license    https://www.mageefy.com/license-agreement
+ */
+ -->
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <columns name="sales_order_columns">
+        <column name="color_order"  class="Mageefy\OrderStatusColor\Ui\Component\Columns\ColorOrder">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="componentDisabled" xsi:type="boolean">true</item>
+                    <item name="visible" xsi:type="boolean">false</item>
+                    <item name="label" xsi:type="string" translate="true">Color Order</item>
+                </item>
+            </argument>
+        </column>
+    </columns>
+</listing>

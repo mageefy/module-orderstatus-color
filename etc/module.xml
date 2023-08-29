@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+ /**
+ * @category   Mageefy
+ * @package    Mageefy_OrderStatusColor
+ * @author     Mageefy Extension Team
+ * @copyright  Copyright (c) Mageefy ( https://www.mageefy.com )
+ * @license    https://www.mageefy.com/license-agreement
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+  <module name="Mageefy_OrderStatusColor" setup_version="1.0.0">
+    <sequence>
+      <module name="Magento_Sales"/>
+    </sequence>
+  </module>
+</config>
